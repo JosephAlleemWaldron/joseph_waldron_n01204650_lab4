@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Profile from './components/Profile';
+import Hobbies from './components/Hobbies';
+import Counter from './components/Counter';
+import Product from './components/Product';
+import ShoppingHome from './components/ShoppingHome';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div classname = "App">
+     <h1>Week 5 State,Props and Hooks </h1>
+
+     
+     <ShoppingHome/>
     </div>
   );
 }
